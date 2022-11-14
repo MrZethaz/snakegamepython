@@ -79,6 +79,7 @@ clock = pg.time.Clock()
 mainGame = Main()
 last_direction = "y"
 while True:
+
   clock.tick(10)
   screen.fill(color=(175,215,70))
   
